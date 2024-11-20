@@ -6,7 +6,7 @@ sess=boto3.Session(aws_access_key_id='',
                 aws_secret_access_key='',
                 region_name='ap-southeast-2')
 
-#sess=boto3.Session(region_name='ap-southeast-2')
+#sess=boto3.Session(region_name='us-east-1')
 #filename="/home/ubuntu/project-configuration-files/inventory-host"
 ec2=sess.resource("ec2")
 
