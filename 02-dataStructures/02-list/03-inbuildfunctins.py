@@ -41,3 +41,8 @@ print(list1)
 print("sort the list in reverse order")
 list1.sort(reverse=True)
 print(list1)
+
+print("inserting element into a first index")
+list1.insert(0,23)
+
+print(list1)
